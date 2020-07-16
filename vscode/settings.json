@@ -1,0 +1,96 @@
+{
+    // General
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.tree.indent": 16,
+    "window.closeWhenEmpty": true,
+    "editor.suggestSelection": "first",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "extensions.autoUpdate": true,
+    // Source Control
+    "git.autofetch": true,
+    // Language Support
+    // Python
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.generateDocstringOnEnter": true,
+    "autoDocstring.includeExtendedSummary": true,
+    "autoDocstring.includeName": true,
+    "autoDocstring.startOnNewLine": true,
+    "autoDocstring.guessTypes": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        // see https://buildmedia.readthedocs.org/media/pdf/pylint/latest/pylint.pdf
+        "--enable=all",
+        "--disable=W0142,C0330,C0115,C0116,e0212,e0403,e0232,e1202,e0201,e0903,e0913,e0103,e0914,e0304,e0401,e0402,e1101,e0614,e0111,e0301,e0330,e0411"
+    ],
+    "python.dataScience.askForKernelRestart": false,
+    "zenMode.fullScreen": false,
+    "terminal.external.osxExec": "iTerm.app",
+    "python.jediEnabled": false,
+    "python.dataScience.decorateCells": false,
+    "python.dataScience.maxOutputSize": -1,
+    "python.insidersChannel": "off",
+    // Vim
+    "vim.overrideCopy": false,
+    /// avoid directories with significant (and meaningless to edit) files
+    // that hinder performance (eight megabytes and always swapping)
+    "files.exclude": {
+        "**/.archive": true,
+        "**/.idea": true,
+        "**/.vscode": true,
+    },
+    // This is not very stable for animated terminal elements (like progress)
+    // bars - but should probably be used when it is made so
+    // "terminal.integrated.rendererType": "experimentalWebgl",
+    "terminal.integrated.rendererType": "dom",
+    // Visual
+    "workbench.iconTheme": null,
+    "editor.minimap.enabled": false,
+    // Plugins
+    // Live Share
+    "liveshare.allowGuestTaskControl": true,
+    "liveshare.showInStatusBar": "never",
+    "editor.rulers": [
+        80,
+        88,
+        100,
+        120
+    ],
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.scrollback": 10000000000000,
+    "python.languageServer": "Microsoft",
+    "terminal.integrated.automationShell.osx": "",
+    "oneDarkPro.editorTheme": "Onedark Pro",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization"
+    ],
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.colorTheme": "Darkside Contrast (rainglow)",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#505050",
+        "dropdown.border": "#1a1a1a",
+        "input.border": "#1a1a1a",
+        "badge.background": "#339e13",
+        "activityBarBadge.background": "#339e13",
+        "panelTitle.activeBorder": "#339e13",
+        "focusBorder": "#339e13"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#a4bb1a" //change to your preference
+                }
+            }
+        ]
+    },
+}
