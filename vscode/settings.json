@@ -82,6 +82,7 @@
         "activityBarBadge.background": "#339e13",
         "panelTitle.activeBorder": "#339e13",
         "focusBorder": "#339e13"
+        "list.activeSelectionBackground": "#339e13",
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
