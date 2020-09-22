@@ -76,6 +76,8 @@
     "workbench.colorTheme": "Darkside Contrast (rainglow)",
     "workbench.colorCustomizations": {
         "statusBar.background": "#505050",
+        "statusBar.noFolderBackground": "#222225",
+        "statusBar.debuggingBackground": "#511f1f",
         "dropdown.border": "#1a1a1a",
         "input.border": "#1a1a1a",
         "badge.background": "#339e13",
