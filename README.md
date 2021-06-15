@@ -14,3 +14,19 @@ gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/k
 gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ prev-tab '<Primary><Shift>Tab'
 ```
 
+## VSCode
+
+Keybindings - switching tabs in a cycle with ctrl-tab:
+- create file `~/.config/Code/User/keybindings.json` wherever the VSCode config lies, and add the following:
+```
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditorInGroup"
+    }
+]
+```
