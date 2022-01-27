@@ -24,6 +24,13 @@ Keybindings - switching tabs in a cycle with ctrl-tab:
 ]
 ```
 
+### Useful vscode extensions
+
+- Remote - SSH
+- Default language extensions (C/C++, Python, etc.)
+- Rainglow (themes)
+- Gitlens
+
 ## Mac-specific
 
 ### .zshrc
