@@ -29,7 +29,9 @@ Keybindings - switching tabs in a cycle with ctrl-tab:
 - Remote - SSH
 - Default language extensions (C/C++, Python, etc.)
 - Rainglow (themes)
-- Gitlens
+  - Dark, not contrast: Frontier
+  - Contrast: Darkside Contrast
+- GitLens
 
 ## Mac-specific
 
