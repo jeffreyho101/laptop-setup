@@ -72,3 +72,7 @@ Keybindings - switching tabs in a cycle with ctrl-tab:
 gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ next-tab '<Primary>Tab'
 gsettings set org.gnome.Terminal.Legacy.Keybindings:/org/gnome/terminal/legacy/keybindings/ prev-tab '<Primary><Shift>Tab'
 ```
+
+### Git Basics
+1. pushing to mainline: `git push origin main` (only if on mainline)
+2. branching: if you have a local branch and want to push to remote (to create a PR onto mainline via UI): `git push --set-upstream origin <name of new remote branch>`
